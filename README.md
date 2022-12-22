@@ -5,14 +5,15 @@ This repository contains Python scripts for implementing various algorithms for 
 ## Requirements
 The scripts in this repository require Python 3.6 or higher, as well as the following libraries:
 
-numpy
-scipy
+- numpy
+- scipy
 
 ## List of Algorithms
 The following algorithms are included in this repository:
 
-- **Longest Common Subsequence (LCS)** - This algorithm takes in two sequences and finds the longest subsequence that is common to both sequences.
-
-- **Smith-Waterman Algorithm** - This algorithm is used for local sequence alignment, and takes in two sequences as well as a scoring matrix and gap penalty. It returns the optimal alignment of the two sequences based on the given parameters.
-
-- **Needleman-Wunsch Algorithm** - This algorithm is used for global sequence alignment, and also takes in two sequences and a scoring matrix and gap penalty. It returns the optimal alignment of the two sequences based on the given parameters.
+- [Aho-Corasick Algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)
+- [BNDM Algorithm](https://www-igm.univ-mlv.fr/~lecroq/string/bndm.html)
+- [Maximal Unique Matches](https://en.wikipedia.org/wiki/Maximal_unique_match)
+- [Naive Pattern Matching](https://www.geeksforgeeks.org/naive-algorithm-for-pattern-searching/)
+- [Shift-And-Or Pattern Matching](https://www.educative.io/answers/shift-or-string-matching-algorithm)
+- [Ukkonen Suffix Tree](https://en.wikipedia.org/wiki/Ukkonen%27s_algorithm)
